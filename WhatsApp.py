@@ -5,7 +5,8 @@ driver = webdriver.Chrome()
 driver.get('https://web.whatsapp.com')
 time.sleep(10)
 a=0
-target_contact = driver.find_element_by_xpath("//span[text()='anjiii']").click()
+#target_contact = driver.find_element_by_xpath("//span[text()='AKSHAY']").click()
+#replace AKSHAY with contact name
 
 def online():
 	global a
